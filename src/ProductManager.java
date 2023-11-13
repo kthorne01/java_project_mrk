@@ -49,6 +49,11 @@ class ProductManager {
         createProduct(productId, productName, defaultExpiryDate, defaultMarkdownPeriod);
     }
 
+    // Overloaded displayProduct method without parameters
+    public static void displayProduct() {
+        // Implementation to display all products
+    }
+
     public static void displayProduct(String productName, String productId) {
         // Display all products if no parameters are provided
         if (productName == null && productId == null) {
